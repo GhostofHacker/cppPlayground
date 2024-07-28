@@ -4,4 +4,7 @@
 //squareSort.cpp functions 
 void squareSort();
 
+//duplicateZeros.cpp functions
+void duplicateZeros(std::vector<int> arr);
+
 #endif
