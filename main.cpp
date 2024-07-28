@@ -1,8 +1,9 @@
 #include <iostream>
+#include <vector>
 
 #include "tests/header.h"
 
 int main(){
-    sortedSquares();
+    squareSort();
     return 0;
 }

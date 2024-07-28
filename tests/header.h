@@ -1,6 +1,7 @@
 #ifndef HEADER_H
 #define HEADER_H
 
-void sortedSquares();
+//squareSort.cpp functions 
+void squareSort();
 
 #endif
