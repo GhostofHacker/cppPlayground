@@ -7,4 +7,7 @@ void squareSort();
 //duplicateZeros.cpp functions
 void duplicateZeros(std::vector<int> arr);
 
+//mergeVectors.cpp functions
+void mergeVectors();
+
 #endif

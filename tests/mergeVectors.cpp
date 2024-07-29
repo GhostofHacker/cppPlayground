@@ -2,6 +2,8 @@
 #include <vector>
 #include <algorithm>
 
+#include "header.h"
+
 std::vector<int> add(std::vector<int>& numsBig, int n, std::vector<int>& numsSmall){
     int k = 0, capacity = ((int)numsBig.capacity());
     for(int i = n; i < capacity; i++){
