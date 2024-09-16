@@ -14,6 +14,6 @@ void beforeDiv(){
 }
 
 int main(){
-    beforeDiv();
+    runPlayground();
     return 0;
 }

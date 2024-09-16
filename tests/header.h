@@ -1,6 +1,8 @@
 #ifndef HEADER_H
 #define HEADER_H
 
+//playground.cpp integrated
+void runPlayground();
 //squareSort.cpp functions 
 void squareSort();
 
