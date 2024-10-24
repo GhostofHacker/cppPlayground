@@ -96,8 +96,10 @@ void expStructs() {
     ListNode *middle = head;
     while (head != nullptr && head->next != nullptr)
     {
+        std::cout << "\n" << head << std::endl;
+        std::cout << "   " << head->next << std::endl;
         middle = middle->next;
-        head = head->next->next;
+        head = head->next;
     }
 
     std::cout << "\n" << middle->val << std::endl;
@@ -198,8 +200,5 @@ bool isNStraightHand(std::vector<int> hand, int groupSize) {
 //https://www.youtube.com/watch?v=otaOQJ61QP8&ab_channel=STEMwithProf.Erickson checkout the fourt example
 
 void runPlayground() {
-    std::vector<int> hand {8, 10, 12}; 
-    int groupSize = 3;
-    
-    std::cout << isNStraightHand(hand, groupSize);
+    expStructs();
 }
